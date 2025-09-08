@@ -3,6 +3,8 @@
 ---
 
 ## 🔎 Overview
+<img width="1541" height="280" alt="image" src="https://github.com/user-attachments/assets/010efec7-c3f8-438e-b22f-2905eb0ae196" />
+
 This repository provides a **summary and visual materials** of our work:  
 **"Proactive Mission-Time-Efficient Coverage Path Planning Using Hierarchical Heuristics"**  
 (*Under Review, 2025*)  
