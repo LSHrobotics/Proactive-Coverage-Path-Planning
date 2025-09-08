@@ -4,7 +4,8 @@
 
 ## 🔎 **Overview**
 **Overall Framework**  
-<img width="1541" height="280" alt="framework" src="https://github.com/user-attachments/assets/010efec7-c3f8-438e-b22f-2905eb0ae196" />
+<img width="2916" height="538" alt="overall_structure5" src="https://github.com/user-attachments/assets/bc1bfbcf-906d-4f15-9132-9cfb7c87f10c" />
+
 
 *Figure 1. Flowchart of the proposed energy-aware CPP framework. The process starts with map generation and ACO-based path planning. Redundant nodes are inserted to reflect energy constraints, and a GA schedules recharging stops to minimize mission time.*
 
