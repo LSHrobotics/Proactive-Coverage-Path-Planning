@@ -2,9 +2,11 @@
 
 ---
 
-## 🔎 Overview
-Overall Framework:  
+## 🔎 **Overview**
+**Overall Framework**  
 <img width="1541" height="280" alt="framework" src="https://github.com/user-attachments/assets/010efec7-c3f8-438e-b22f-2905eb0ae196" />
+
+*Figure 1. Flowchart of the proposed energy-aware CPP framework. The process starts with map generation and ACO-based path planning. Redundant nodes are inserted to reflect energy constraints, and a GA schedules recharging stops to minimize mission time.*
 
 This repository provides a **summary and visual materials** of our work:  
 **"Proactive Mission-Time-Efficient Coverage Path Planning Using Hierarchical Heuristics"**  
@@ -18,21 +20,23 @@ By integrating charging decisions in advance, the method achieves up to **24.66%
 
 ---
 
-## 🚀 Key Contributions
+## 🚀 **Key Contributions**
 - **Proactive Planning**: Plans charging stops before the battery reaches critical levels.  
 - **Hierarchical Heuristic**: ACO ensures efficient path ordering, GA refines charging schedules.  
 - **Efficiency Gains**: Demonstrated significant mission-time reduction in synthetic, real-world, and Antarctica-based environments.  
 
 ---
 
-Problem Description:  
+## ⚡ **Problem Description**
 <img width="1054" height="337" alt="problem" src="https://github.com/user-attachments/assets/7f0227bc-1641-4ade-90a8-f736a925bfa5" />
+
+*Figure 2. Comparison between reactive and proactive (GER) energy-aware planning. Black circles: coverage nodes (N); green circles: charging stations (C); dotted circles: sensing range (Rs). Unlike reactive methods that recharge only at low battery, GER proactively integrates charging stops into path planning.*
 
 ---
 
-## 📊 Results
+## 📊 **Results**
 
-### Simulation Comparisons
+### 🔹 **Simulation Comparisons**
 Comparison of four methods in a synthetic coverage environment:  
 - **NCPP**: Ignores charging, fails due to battery depletion.  
 - **ER**: Charges only when nearly depleted, leading to late detours.  
@@ -43,15 +47,14 @@ Comparison of four methods in a synthetic coverage environment:
 
 ---
 
-### Battery Profiles
-Battery level comparison under different methods and charging station densities.  
+### 🔹 **Battery Profiles**
 GER maintains safer margins by recharging earlier, avoiding critical depletion and reducing mission time.  
 
 <img width="525" height="128" alt="battery" src="https://github.com/user-attachments/assets/b567a4d0-4898-487c-9d1f-f5ae162ac519" />
 
 ---
 
-### Mission Time Comparison
+### 🔹 **Mission Time Comparison**
 Total mission time (*T(Q\*)*) for NCPP, ER, EVTSP, and GER in a real-world-acquired environment.  
 GER shows the shortest mission times across all charging station densities.  
 
