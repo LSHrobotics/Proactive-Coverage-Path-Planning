@@ -1,4 +1,6 @@
-Overall Framework
+
+Proactive Mission-Time-Efficient Coverage Path Planning Using Hierarchical Heuristics
+🔎 Overall Framework
 <img width="2916" height="538" alt="overall_structure5" src="https://github.com/user-attachments/assets/bc1bfbcf-906d-4f15-9132-9cfb7c87f10c" />
 
 Figure 1. Flowchart of the proposed energy-aware CPP framework. The process begins with map generation and ACO-based path planning. Redundant nodes are then inserted to account for energy constraints, and a GA refines the solution by scheduling proactive recharging stops to minimize total mission time.
