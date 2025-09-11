@@ -66,7 +66,7 @@ GER shows the shortest mission times across all charging station densities.
 
 ## Demo Video
 Sample Video:
-Watch here: [YouTube Link](https://www.youtube.com/watch?v=2W8d0w5iOIs)
+Watch here: [YouTube Link](https://youtu.be/FFeNO_RdM2w)
 
 
 
