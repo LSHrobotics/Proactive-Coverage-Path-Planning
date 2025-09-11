@@ -65,7 +65,7 @@ GER shows the shortest mission times across all charging station densities.
 
 
 ## Demo Video
-Sample Video:
+In the video, the coverage mission time is accelerated by about 23× to keep the demonstration within roughly one minute. In our paper, the coverage mission times for each method follow those reported in Table 4.
 Watch here: [YouTube Link](https://youtu.be/FFeNO_RdM2w)
 
 
