@@ -69,5 +69,10 @@ In the paper, actual mission times align with **Table 4** results.
 
 ---
 
-## 📂 Repository Structure
-*(Add structure here if you plan to upload code, datasets, or additional figures)*  
+@unpublished{Lee2025,
+  author = {Junghwan Gong, Moses O. Oluma, and Seunghwan Lee},
+  title  = {Proactive Mission-Time-Efficient Coverage Path Planning Using Hierarchical Heuristics},
+  note   = {Manuscript under review, 2025}
+}
+
+
