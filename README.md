@@ -62,8 +62,8 @@ GER consistently achieves the **lowest mission times across charging station den
 ---
 
 ## 🎥 Demo Video
-For demonstration, the coverage mission time is accelerated by ~23× to fit within one minute.  
-In the paper, actual mission times align with **Table 4** results.  
+In the demonstration video, the coverage mission time is accelerated by approximately 24× so that the mission completes within about one minute for visual clarity. 
+In contrast, our paper reports the normalized mission times obtained from simulation. Especially, in the sparse charging-station case, our proposed GER achieves 1164.42 s, compared to 1431.33 s for ER and 1331.86 s for EVTSP, as described in Table 4. 
 
 ▶ Watch here: [YouTube Link](https://youtu.be/FFeNO_RdM2w)
 
