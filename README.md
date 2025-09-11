@@ -27,9 +27,18 @@ By embedding charging decisions into the planning stage, the method achieves up 
 ---
 
 ## ⚡ Problem Description
+This paper addresses the challenge of energy-aware multi-robot coverage path planning. Traditional reactive methods only trigger recharging when the battery level drops critically low, which often leads to inefficient routes or mission failure in sparse charging environments.
+The proposed Globally Extended Routing (GER) method proactively integrates recharging decisions into the path generation process. By embedding charging stops within the coverage sequence, GER minimizes the overall mission time while ensuring that energy constraints are satisfied.
+
+Figure 2 illustrates the difference:
+Black circles (N): coverage nodes
+Green circles (C): charging stations
+Dotted circles (Rs): sensing ranges
+Reactive planning recharges late, whereas GER proactively plans recharging actions during route construction.
+
 <img width="1054" height="337" alt="problem" src="https://github.com/user-attachments/assets/7f0227bc-1641-4ade-90a8-f736a925bfa5" />
 
-*Figure 2. Reactive vs. proactive (GER) energy-aware planning. Black circles: coverage nodes (N); green circles: charging stations (C); dotted circles: sensing range (Rs). Unlike reactive methods that recharge only at low battery levels, GER proactively integrates recharging decisions into the coverage path.*
+
 
 ---
 
